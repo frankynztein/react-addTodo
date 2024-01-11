@@ -1,0 +1,56 @@
+li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.TodoItem-p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FAFAFA;
+  width: 327px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.TodoItem-p--complete {
+  text-decoration: line-through;
+}
+
+.CheckRed,
+.CheckGreen,
+.Check,
+.Delete {
+  width: 30px;
+  margin-right: 15px;
+}
+
+.Check {
+  color: #5b5b5b;
+  font-weight: 700;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.Check--active {
+  color: green;
+}
+
+.Delete {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.Delete:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.CloseRed,
+.CloseWhite {
+  width: 20px;
+  margin-left: 15px;
+}
